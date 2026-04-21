@@ -1,0 +1,5 @@
+version: "0.1.0"
+mode: "ecosystem-memory-placeholder"
+notes:
+  - "Reserved for future per-repo graph linkage config."
+  - "The first sprint uses artifact registration and query only."
