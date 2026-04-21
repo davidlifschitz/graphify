@@ -1,0 +1,14 @@
+{
+  "name": "graphify-ecosystem-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "inspect:artifacts": "tsx scripts/inspect-artifacts.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.3",
+    "@types/node": "^24.0.0"
+  }
+}
