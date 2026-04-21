@@ -62,7 +62,7 @@ export function registerArtifacts(artifacts: ArtifactRecord[]) {
 
     if (artifact.metadata?.task_id) {
       normalizedRelations.push({
-        relation_type: 'belongs_to_task',
+        relation_type: 'belongs_to',
         target_kind: 'task',
         target_id: artifact.metadata.task_id
       });
@@ -70,7 +70,7 @@ export function registerArtifacts(artifacts: ArtifactRecord[]) {
 
     if (artifact.metadata?.project_id) {
       normalizedRelations.push({
-        relation_type: 'belongs_to_project',
+        relation_type: 'belongs_to',
         target_kind: 'project',
         target_id: artifact.metadata.project_id
       });
